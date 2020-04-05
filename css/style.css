@@ -10,6 +10,14 @@ body{
 }
 h1, h2, h3, h4, h5 {
     text-transform: uppercase;
+
+}
+a{
+  color: #e75b51;
+}
+a:hover{
+  text-decoration: none;
+  color: #e75b51;
 }
 .row{
   margin-top: 17px;
@@ -322,5 +330,95 @@ height: 330px;
 }
 .advantages__item-left{
   margin: 0 20px 0 0;
+  color: #e75b51;
+}
+.card_pay{
+  width:300px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 150px;
+  display:flex;
+  border-style: none;
+}
+.pay_ico{
+  margin: 0 0 0 0;
+  color: #e75b51;
+}
+.separator{
+  margin: 0 15% 0 15%;
+  width: 70%;
+  color: #828282;
+  display: inline-block;
+  border-style: solid;
+  border-color: #828282;
+  border-width: 1px;
+  padding: inherit;
+}
+
+.ui-item{
+  max-width: 400px;
+  margin: 30px auto;
+  position: relative;
+}
+.bg-lblue{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 48px;
+  line-height: 65px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #e75b51 !important;
+}
+.ui-details{
+  border: 1px solid #e7e7e7;
+  border-bottom: 2px solid #e75b51;
+  background: #fff;
+  padding: 24px 20px 16px;
+  margin-bottom: 18px;
+  border-radius: 3px;
+}
+.ui-img a{
+  display: block;
+  width: 35px;
+  float: left;
+  margin-left: 20px;
+}
+.ui-img img{
+  width: 100px;
+  border-radius: 100%;
+}
+.uname{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.site-footer{
+  background-color: #141419;
+}
+.widget-title h5{
+  padding-top: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.invert h5{
+  color: #ffffff;
+}
+.textwidget li{
+  list-style-type:none;
+  margin: 0 0 0 -40px;
+}
+.textwidget a{
+  color: #79787f;
+}
+.textwidget i{
   color: #e75b51;
 }
