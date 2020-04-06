@@ -13,11 +13,11 @@ h1, h2, h3, h4, h5 {
 
 }
 a{
-  color: #e75b51;
+  color: #00be64;
 }
 a:hover{
   text-decoration: none;
-  color: #e75b51;
+  color: #00be64;
 }
 .row{
   margin-top: 17px;
@@ -133,14 +133,14 @@ a:hover{
 
 .myBtn{
   height: 50px;
-  background: #e75a51;
+  background: #4fe48f;
   color: #fff;
   border: 0;
   padding: 0 20px;
 }
 
 .contact-block__icon {
-    color: #e75b51;
+    color: #00be64;
     font-size: 20px;
     margin-right: 9px;
 }
@@ -163,7 +163,7 @@ a:hover{
   text-align: center;
   position: relative;
   justify-content: center;
-  background-color: #e75b51;
+  background-color: #00be64;
 
 }
 .nav-link{
@@ -225,8 +225,8 @@ a:hover{
 }
 .btn-primary{
   color: #fff;
-  background-color: #e75b51;
-  border-color: #e75b51;
+  background-color: #00be64;
+  border-color: #00be64;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -258,7 +258,7 @@ a:hover{
   display:flex;
 }
 .card-box-color{
-  background-color: #e34d3f;
+  background-color: #1dbc67;
 }
 .card-box-color h6{
   color: white;
@@ -330,7 +330,7 @@ height: 330px;
 }
 .advantages__item-left{
   margin: 0 20px 0 0;
-  color: #e75b51;
+  color: #00be64;
 }
 .card_pay{
   width:300px;
@@ -345,7 +345,7 @@ height: 330px;
 }
 .pay_ico{
   margin: 0 0 0 0;
-  color: #e75b51;
+  color: #00be64;
 }
 .separator{
   margin: 0 15% 0 15%;
@@ -375,11 +375,11 @@ height: 330px;
   left: 20px;
   color: #fff;
   font-family: Georgia, "Times New Roman", serif;
-  background-color: #e75b51 !important;
+  background-color: #00be64 !important;
 }
 .ui-details{
   border: 1px solid #e7e7e7;
-  border-bottom: 2px solid #e75b51;
+  border-bottom: 2px solid #00be64;
   background: #fff;
   padding: 24px 20px 16px;
   margin-bottom: 18px;
@@ -420,5 +420,5 @@ height: 330px;
   color: #79787f;
 }
 .textwidget i{
-  color: #e75b51;
+  color: #00be64;
 }
