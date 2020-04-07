@@ -195,7 +195,7 @@ a:hover{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 110px 0px 80px 0px;
+  padding: 110px 0px 80px 100px;
 }
 .formlabel h6{
   text-transform: uppercase;
@@ -204,7 +204,7 @@ a:hover{
   font-size: 39px;
 }
 .zakform{
-  width: 200px;
+  width: 100px;
   display: flex;
   background-color: #ffffff;
   margin-left: 400px;
