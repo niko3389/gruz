@@ -32,8 +32,9 @@ a:hover{
   position: relative;
 
 }
-.site-logo__link img{
+.site-logo__link i{
   max-width: 200px;
+  display: flex;
 }
 
 .col-lg-4{
@@ -53,7 +54,7 @@ a:hover{
   margin-left: 10px;
   text-align: left;
   margin-bottom: 4px;
-  font-size: .857rem;
+  font-size: 20px;
   line-height: 1;
 }
 .site-branding{
@@ -133,7 +134,7 @@ a:hover{
 
 .myBtn{
   height: 50px;
-  background: #4fe48f;
+  background: #464646;
   color: #fff;
   border: 0;
   padding: 0 20px;
@@ -225,7 +226,7 @@ a:hover{
 }
 .btn-primary{
   color: #fff;
-  background-color: #00be64;
+  background-color: #464646;
   border-color: #00be64;
   position: relative;
   text-align: center;
