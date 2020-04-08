@@ -1,0 +1,22 @@
+.about_left{
+font-size: 50px;
+color: #1dbc67;
+margin: 100px;
+}
+.about_right{
+text-align: center;
+}
+.about_right p{
+  text-align: left;
+}
+.about_block{
+  display:flex;
+  max-width: 1000px;
+}
+.price_list li{
+  text-align: left;
+  list-style-type:none;
+}
+.price_list{
+  margin: auto;
+}
