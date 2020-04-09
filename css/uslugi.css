@@ -1,0 +1,32 @@
+.mitem{
+  display: flex;
+  max-width: 300px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e3e2e7;
+}
+.mtext{
+  display:inline-block;
+  font-size: 16px;
+  margin: 10px 10px 0px 0px;
+}
+.infol{
+  font-size: 50px;
+}
+.mico i{
+  font-size: 30px;
+  margin: 10px 40px 10px 10px;
+}
+.col-9 h1{
+  font-size: 32px;
+}
+.col-9 h2{
+  font-size: 14px;
+}
+ul{
+  list-style: none;
+}
+.fa-check{
+  color:#00be64;
+}
