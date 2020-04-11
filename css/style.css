@@ -19,6 +19,27 @@ a:hover{
   text-decoration: none;
   color: #00be64;
 }
+.fa-angle-down{
+  padding-left: 5px;
+
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  display: none;
+  background: #464646;
+}
+ul li:hover .submenu {
+  display: block;
+  margin-left: 100px;
+}
 .row{
   margin-top: 17px;
   margin-right: auto;
