@@ -35,10 +35,30 @@ a:hover{
   transition: 0.5s ease-in-out;
   display: none;
   background: #464646;
+  text-align: left;
+  margin-left: 1px;
+}
+.submenu li{
+  float:left;
+  height: 60px;
+  width: 140px;
+  display: block;
+
+  text-align: center;
+  vertical-align: middle;
 }
 ul li:hover .submenu {
   display: block;
   margin-left: 100px;
+  text-align: left;
+}
+ul li a{
+  color: white;
+  text-align: left;
+  display: block;
+  margin: auto;
+
+
 }
 .row{
   margin-top: 17px;
