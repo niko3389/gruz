@@ -372,12 +372,12 @@ height: 330px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content:space-around;
   padding: 0;
-  display: flex;
-  margin: 0;
+  text-align: center;
+  margin: auto;
   list-style: none;
-
+  display: flex;
 }
 .advantages__item{
   display: -webkit-box;
