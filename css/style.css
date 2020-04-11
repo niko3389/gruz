@@ -45,12 +45,13 @@ a:hover{
   display: block;
 
   text-align: center;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 ul li:hover .submenu {
   display: block;
   margin-left: 100px;
   text-align: left;
+
 }
 ul li a{
   color: white;
