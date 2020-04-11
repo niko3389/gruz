@@ -30,3 +30,8 @@ ul{
 .fa-check{
   color:#00be64;
 }
+.justify-content-center{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
