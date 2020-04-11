@@ -194,12 +194,21 @@ ul li a{
 }
 .header-container__flex-wrap{
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
-
+.navbar-toggler-icon{
+  display: flex;
+  text-align: center;
+  justify-content:space-around;
+  width: 20rem;
+  height: 1.5em;
+}
 .nav{
   display: flex;
   float: none;
@@ -207,6 +216,7 @@ ul li a{
   position: relative;
   justify-content: center;
   background-color: #00be64;
+  color: white;
 
 }
 .nav-link{
