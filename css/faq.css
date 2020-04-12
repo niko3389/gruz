@@ -1,11 +1,15 @@
 .faqitem{
-  width: 700px;
+  max-width: 400px;
   height: 100%;
   text-align: center;
-  box-sizing: border-box;
+
 }
 .accordion{
 text-align: center;
-display:block;
+
 margin: auto;
+align-items: center;
+text-align: center;
+display: block;
+
 }
