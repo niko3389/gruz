@@ -2,11 +2,11 @@
 
 
 justify-content: flex-start;
-
+margin-right: 50px;
 }
 .right_block{
 justify-content: flex-end;
-
+margin-left: 50px;
 }
 
 .services-heading_title{
