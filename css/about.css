@@ -1,13 +1,15 @@
 .about_left{
 font-size: 50px;
 color: #1dbc67;
-margin: 100px;
+margin: 1px 10px 5px 10px;
 }
 .about_right{
 text-align: center;
+margin: 1px 10px 5px 10px;
 }
 .about_right p{
   text-align: left;
+  margin: 1px 10px 5px 10px;
 }
 .about_block{
   display:flex;
