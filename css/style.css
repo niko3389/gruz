@@ -138,15 +138,14 @@ justify-content: center;
 }
 .contact-block__inner{
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+-ms-flex-pack: center;
+justify-content: center;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
 }
 
 .nc-icon-mini{
@@ -167,10 +166,10 @@ justify-content: center;
 
 }
 
-.contact-block.contact-block--header, .contact-block__inner, .contact-block.contact-block--header{
+.contact-block.contact-block--header, .contact-block.contact-block--header{
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items:center;
   display: flex;
 }
 
@@ -187,7 +186,6 @@ justify-content: center;
 .contact-block__item, .contact-block__item--icon{
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -469,7 +467,12 @@ height: 330px;
   border-width: 1px;
   padding: inherit;
 }
-
+.site-header{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+flex: 0 0 100%;
+}
 .ui-item{
   max-width: 400px;
   margin: 30px auto;
