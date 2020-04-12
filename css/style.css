@@ -127,7 +127,7 @@ justify-content: center;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items:center;
-  
+
   border-radius: 100px;
   max-width: 250px;
 }
@@ -509,11 +509,13 @@ height: 330px;
 }
 .site-footer{
   background-color: #141419;
+  display: flex;
 }
 .widget-title h5{
   padding-top: 26px;
   position: relative;
   margin-bottom: 15px;
+  padding-right: 20px;
   color: #ffffff;
 }
 .invert h5{
@@ -528,4 +530,19 @@ height: 330px;
 }
 .textwidget i{
   color: #00be64;
+}
+.footermenu{
+  display: block;
+  margin: 10px;
+}
+
+.footer_block{
+  max-width: 400px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-style: none;
+}
+.widget_text{
+  max-width:300px;
 }

@@ -3,11 +3,10 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css\style.css">
-    <link rel="stylesheet" type="text/css" href="css\uslugi.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/93b818a619.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Федеральная служба переездов</title>
   </head>
   <body>
     <header class="site-header">
@@ -17,8 +16,12 @@
             <div class="col-xs-12 col-lg-4">
               <div class="site-branding">
                 <div class="site-logo site-logo--image">
-                  <a class="site-logo__link" href="#">
-                    <i class="fas fa-globe fa-5x"></i>
+                  <a class="site-logo__link" href="index.html">
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-truck-moving fa-2x logoico"></i>
+                      <i class="fas fa-home fa-1x logoico"></i>
+                    </span>
+
 
                   </a>
                 </div>
@@ -27,26 +30,34 @@
               </div>
             </div>
             <div class="col-xs-12 col-lg-8 header-row__flex header-components__contact-button">
+              <div class="row d-flex justify-content-center">
+
               <div class="contact-block contact-block--header">
                 <div class="contact-block__inner">
+
                   <div class="contact-block__item contact-block__item--icon">
                     <i class="far fa-clock contact-block__icon nc-icon-mini ui-2_time-clock"></i>
+
                     <div class="contact-block__value-wrap">
                       <span class="contact-block__label">Режим работы</span>
+                      <br>
                       <span class="contact-block__text">Пн-Вс: круглосуточно</span>
                     </div>
                   </div>
-                  <div class="contact-block__item contact-block__item--icon">
-                    <button class="myBtn">Обратный звонок</button>
-                  </div>
+                </div>
+
                   <div class="contact-block__item contact-block__item--icon">
                     <i class="fas fa-phone-alt contact-block__icon"></i>
                     <div class="contact-block__value-wrap">
                       <span class="contact-block__label">Телефон</span>
+                      <br>
                       <span class="contact-block__text">
                         <a class="phone_alloka" style="cursor: default; text-decoration: none;" href="tel:+79385292399">+7 938 529-23-99</a>
                       </span>
                     </div>
+                  </div>
+                  <div class="contact-block__item contact-block__item--icon">
+                    <button class="myBtn">Обратный звонок</button>
                   </div>
                   </div>
 
@@ -56,12 +67,31 @@
             </div>
           </div>
         </div>
-
+      </div>
       <div class="header-container__flex-wrap">
-        <nav class="main-navigation main-menu-style-1">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler nav" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">Меню </span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="nav">
             <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
-            <li class="nav-item"><a class="nav-link" href="price.html">Услуги и цены </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Услуги и цены <i class="fas fa-angle-down fa-2x"></i></a>
+    <ul class="submenu">
+    <li><a href="uslugi-gruzchikov.html">Услуги грузчиков в Краснодаре</a></li>
+    <li><a href="kvartirnyj-pereezd.html">Квартирный переезд</a></li>
+    <li><a href="ofisnyj-pereezd.html">Офисный переезд</a></li>
+    <li><a href="demontazh.html">Демонтаж</a></li>
+    <li><a href="dachnyj-pereezd.html">Дачный переезд</a></li>
+    <li><a href="vyvoz-musora.html">Вывоз мусора</a></li>
+    <li><a href="takelazhnye-raboty.html">Такелажные работы</a></li>
+    <li><a href="zemelnye-raboty.html">Земельные работы</a></li>
+    <li><a href="master-na-chas.html">Мастер на час</a></li>
+    <li><a href="podem-strojmaterialov.html">Подъем стройматериалов</a></li>
+    <li><a href="sborka-i-razborka-mebeli.html">Сборка и разборка мебели</a></li>
+    </ul>
+</li>
             <li class="nav-item"><a class="nav-link" href="autopark.html">Автопарк</a></li>
             <li class="nav-item"><a class="nav-link" href="faq.html">Частые вопросы</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">О компании</a></li>
@@ -70,6 +100,7 @@
           </ul>
         </nav>
       </div>
+    </div>
     </header>
     <div class="container">
       <div class="row">
