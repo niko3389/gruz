@@ -102,10 +102,23 @@ ul li a{
 }
 .logodiv{
   justify-content:flex-end;
-  display: flex;
+  d
 }
+.fa-home {
+color: white;
+
+margin: 5px 3px 8px 3px;
+}
+.logoico{
+
+text-align: center;
+position: absolute;
+margin-right: 10px;
+justify-content: center;
+}
+
 .site-branding{
-  text-align: center;
+
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
