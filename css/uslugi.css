@@ -37,5 +37,7 @@ ul{
   position: relative;
 }
 img{
-  max-width: 400px;
+  max-width: 350px;
+  text-align: center;
+  display: flex;
 }
