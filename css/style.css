@@ -72,7 +72,8 @@ ul li a{
   max-width: 200px;
 }
 .header-container{
-  position: relative;
+  position:relative;
+  display: flex;
 
 }
 .site-logo__link img{
@@ -126,7 +127,7 @@ justify-content: center;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items:center;
-  justify-content: center;
+  
   border-radius: 100px;
   max-width: 250px;
 }
@@ -137,6 +138,7 @@ justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -152,20 +154,23 @@ justify-content: center;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header-components__contact-button, .contact-block{
+.header-components__contact-button,{
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+  display:flex;
+
 }
 
 .contact-block.contact-block--header, .contact-block__inner, .contact-block.contact-block--header{
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
+  display: flex;
 }
 
 .contact-block.contact-block--header, .contact-block__label{
-  display: block;
+  margin: 0px;
   padding-right: 0;
 }
 
@@ -186,6 +191,7 @@ justify-content: center;
   -ms-flex-align: center;
   align-items: center;
   flex-grow: 1;
+  max-width: 200px;
 }
 
 
@@ -193,6 +199,7 @@ justify-content: center;
   padding-top: 5px;
   padding-bottom: 5px;
   position: relative;
+  margin-right: 10px;
 }
 
 .myBtn{
