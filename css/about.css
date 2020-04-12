@@ -16,7 +16,12 @@ text-align: center;
 .price_list li{
   text-align: left;
   list-style-type:none;
+
 }
 .price_list{
   margin: auto;
+
+}
+ul li a{
+color: #1dbc67;
 }
