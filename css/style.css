@@ -24,6 +24,11 @@ a:hover{
   padding-left: 5px;
 
 }
+.hide-on-mobile { display: inline; }
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 .submenu {
   position: absolute;
   top: 100%;
