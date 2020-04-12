@@ -36,3 +36,6 @@ ul{
   flex-wrap: wrap;
   position: relative;
 }
+img{
+  max-width: 400px;
+}
