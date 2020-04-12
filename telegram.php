@@ -34,5 +34,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo '<p class="fail">Ошибка. Вы заполнили не все обязательные поля!</p>';
   }
 } else {
-  header ("Location: http://vk.com"); // главная страница вашего лендинга
+  header ("Location: http://vk.com");
 }
