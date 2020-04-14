@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/93b818a619.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Федеральная служба переездов</title>
+  </head>
+  <body>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Оставить заявку</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="telegram.php" method="post">
+    <div class="form-group">
+      <label for="name">Имя</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" name="user_name" aria-describedby="emailHelp" placeholder="Ваше имя">
+
+    </div>
+    <div class="form-group">
+      <label for="telephone">Телефон</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" name="user_phone" placeholder="Ваш телефон">
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Отправить</button>
+  </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- /Modal -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="header-container_wrap container header-nav-panel--boxed header-nav-panel--static header-menu--style-1">
+          <div class="row">
+            <div class="col-xs-12 col-lg-4">
+              <div class="site-branding">
+                <div class="site-logo site-logo--image">
+                  <a class="site-logo__link" href="index.html">
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-truck-moving fa-2x logoico"></i>
+                      <i class="fas fa-home fa-1x logoico"></i>
+                    </span>
+
+
+                  </a>
+                </div>
+                <div class="site-description">Федеральная служба переездов
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-lg-8 header-row__flex header-components__contact-button">
+              <div class="row d-flex justify-content-center">
+
+              <div class="contact-block contact-block--header">
+                <div class="contact-block__inner">
+
+                  <div class="contact-block__item contact-block__item--icon">
+                    <i class="far fa-clock contact-block__icon nc-icon-mini ui-2_time-clock"></i>
+
+                    <div class="contact-block__value-wrap">
+                      <span class="contact-block__label">Режим работы</span>
+                      <br>
+                      <span class="contact-block__text">Пн-Вс: круглосуточно</span>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="contact-block__item contact-block__item--icon">
+                    <i class="fas fa-phone-alt contact-block__icon"></i>
+                    <div class="contact-block__value-wrap">
+                      <span class="contact-block__label">Телефон</span>
+                      <br>
+                      <span class="contact-block__text">
+                        <a class="phone_alloka" style="cursor: default; text-decoration: none;" href="tel:+79385292399">+7 938 529-23-99</a>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="contact-block__item contact-block__item--icon">
+                    <button class="myBtn" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
+                  </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-container__flex-wrap">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler nav" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">Меню </span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Услуги и цены <i class="fas fa-angle-down fa-2x"></i></a>
+                <ul class="submenu">
+                <li><a href="uslugi-gruzchikov.html">Услуги грузчиков в Краснодаре</a></li>
+                <li><a href="kvartirnyj-pereezd.html">Квартирный переезд</a></li>
+                <li><a href="ofisnyj-pereezd.html">Офисный переезд</a></li>
+                <li><a href="demontazh.html">Демонтаж</a></li>
+                <li><a href="dachnyj-pereezd.html">Дачный переезд</a></li>
+                <li><a href="vyvoz-musora.html">Вывоз мусора</a></li>
+                <li><a href="takelazhnye-raboty.html">Такелажные работы</a></li>
+                <li><a href="zemelnye-raboty.html">Земельные работы</a></li>
+                <li><a href="master-na-chas.html">Мастер на час</a></li>
+                <li><a href="podem-strojmaterialov.html">Подъем стройматериалов</a></li>
+                <li><a href="sborka-i-razborka-mebeli.html">Сборка и разборка мебели</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="autopark.html">Автопарк</a></li>
+            <li class="nav-item"><a class="nav-link" href="faq.html">Частые вопросы</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">О компании</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            <li class="nav-item"><a class="nav-link" href="otzyvi.html">Отзывы</a></li>
+            <li class="nav-item"><a class="nav-link" href="fran.html">Франшиза</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </header>
+<!--content -->
+
+<h1>Пользовательское соглашение</h1>
+
+Я, субъект персональных данных, в соответствии с Федеральным законом от 27 июля 2006 года № 152 «О персональных данных» предоставляю согласие на обработку персональных данных, указанных мной в форме на сайте в сети «Интернет», владельцем которого является Оператор.
+
+Под персональными данными субъекта персональных данных понимается нижеуказанная общая информация: ФИО, адрес электронной почты и номер телефона.
+
+Принимая настоящее Соглашение, я выражаю свою заинтересованность и полное согласие, что обработка персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, передачу (предоставление, доступ), блокирование, удаление, уничтожение, осуществляемых как с использованием средств автоматизации (автоматизированная обработка), так и без использования таких средств (неавтоматизированная обработка).
+
+Я понимаю и соглашаюсь с тем, что предоставленная информация, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена мною в отношении себя лично; информация не относится к государственной, банковской и/или коммерческой тайне, информация не относится к информации о расовой и/или национальной принадлежности, политических взглядах, религиозных или философских убеждениях, не относится к информации о состоянии здоровья и интимной жизни.
+
+Я понимаю и соглашаюсь с тем, что Оператор не проверяет достоверность персональных данных, предоставляемых мной, и не имеет возможности оценивать мою дееспособность и исходит из того, что я предоставляю достоверные персональные данные и поддерживаю такие данные в актуальном состоянии.
+
+Я понимаю и соглашаюсь с тем, что Оператор имеет право направлять мне уведомления о новых продуктах и услугах, специальных предложениях и различных событиях, посредством отправки электронных писем, СМС сообщений, сообщений в мессенджерах и звонков.
+
+Согласие действует по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.
+
+Согласие может быть отозвано мною в любое время на основании моего письменного заявления.
+
+<!--/content -->
+
+<footer class="site-footer">
+
+  <div class="container">
+
+    <section class="footer-area">
+      <div class="row d-flex justify-content-center">
+        <div class="footer_block">
+      <aside class="footermenu col-xs-12 col-sm-12 col-md-4 col-lg-4  widget widget_text">
+
+        <div class="widget-title"><h5>Федеральная служба переездов </h5></div>
+        <div class="textwidget">
+          <p>Услуги грузчиков и переездов в Краснодаре</p>
+          <p><div class="contact-block__item contact-block__item--icon">
+            <button class="myBtn" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
+          </div></p>
+        </div>
+      </aside>
+    </div>
+      <div class="footer_block">
+      <aside class="footermenu col-xs-12 col-sm-12 col-md-4 col-lg-4  widget widget_text">
+        <div class="widget-title"><h5>Услуги</h5></div>
+        <div class="textwidget">
+          <ul>
+            <li>
+              <a href="uslugi-gruzchikov.html"><i class="fas fa-check"></i> Услуги грузчиков</a>
+            </li>
+            <li>
+              <a href="kvartirnyj-pereezd.html"><i class="fas fa-check"></i> Квартирный переезд</a>
+            </li>
+            <li>
+              <a href="ofisnyj-pereezd.html"><i class="fas fa-check"></i> Офисный переезд</a>
+            </li>
+            <li>
+              <a href="dachnyj-pereezd.html"><i class="fas fa-check"></i> Дачный переезд</a>
+            </li>
+            <li>
+              <a href="vyvoz-musora.html"><i class="fas fa-check"></i> Вывоз мусора</a>
+            </li>
+            <li>
+              <a href="takelazhnye-raboty.html"><i class="fas fa-check"></i> Такелажные работы</a>
+            </li>
+            <li>
+              <a href="demontazh.html"><i class="fas fa-check"></i> Демонтаж</a>
+            </li>
+            <li>
+              <a href="zemelnye-raboty.html"><i class="fas fa-check"></i> Земельные работы</a>
+            </li>
+            <li>
+              <a href="master-na-chas.html"><i class="fas fa-check"></i> Мастер на час</a>
+            </li>
+            <li>
+              <a href="podem-strojmaterialov.html"><i class="fas fa-check"></i> Подъем стройматериалов</a>
+            </li>
+            <li>
+              <a href="sborka-i-razborka-mebeli.html"><i class="fas fa-check"></i> Сборка и разборка мебели</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <div class="footer_block">
+      <aside class="footermenu col-xs-12 col-sm-12 col-md-4 col-lg-4  widget widget_text">
+        <div class="widget-title"><h5>Контакты</h5></div>
+        <div class="textwidget">
+          <p><i class="fas fa-phone-alt"></i> Тел: +7 938 529-23-99</p>
+          <p><i class="far fa-clock"></i>  Пн-Вс: круглосуточно.</p>
+          <p><i class="far fa-envelope"></i>  info@promoving.site</p>
+        </div>
+      </aside>
+    </div>
+
+    </section>
+  </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>
