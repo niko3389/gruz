@@ -297,15 +297,12 @@ tel{
 
   display: flex;
   background-color: #ffffff;
-  justify-content:space-around;
+  justify-content:center;
   border-radius: 30px;
   padding-bottom: 15px;
   max-width: 300px;
   max-height: 300px;
-  margin-left: 300px;
-
-
-
+  
 }
 .zakform h6{
   padding: 0;
