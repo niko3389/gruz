@@ -261,6 +261,8 @@ justify-content: center;
   float: none;
   display: inline-block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nav a:hover{
   background-color: #fff;
