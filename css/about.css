@@ -27,3 +27,7 @@ margin: 1px 10px 5px 10px;
 ul li a{
 color: #1dbc67;
 }
+
+.submenu a{
+  color: white;
+}
