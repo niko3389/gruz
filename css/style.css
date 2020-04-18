@@ -237,7 +237,6 @@ justify-content: center;
   display: flex;
   text-align: center;
   justify-content:space-around;
-  
   height: 1.5em;
 }
 .nav{
@@ -351,9 +350,7 @@ tel{
   display:flex;
 }
 .card_adv{
-
   text-align: left;
-  margin-top: auto;
   margin-bottom: 30px;
   margin-left: 5px;
   margin-right: 5px;
