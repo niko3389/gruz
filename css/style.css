@@ -145,6 +145,7 @@ justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
 }
 
 .nc-icon-mini{
@@ -192,8 +193,7 @@ justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  flex-grow: 1;
-  max-width: 200px;
+  
 }
 
 
@@ -202,6 +202,8 @@ justify-content: center;
   padding-bottom: 5px;
   position: relative;
   margin-right: 2px;
+  display: flex;
+
 }
 
 .myBtn{
