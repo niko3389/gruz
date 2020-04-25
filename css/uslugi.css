@@ -31,7 +31,7 @@ ul{
   list-style: none;
 }
 
-.fa-check{
+.fa-check, .fa-circle{
   color:#00be64;
 }
 .justify-content-center{
@@ -54,5 +54,5 @@ img{
 
 }
 .btn-lg{
-margin: 10px 0px 10px 0px  
+margin: 10px 0px 10px 0px
 }
