@@ -41,9 +41,9 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
   transition: 0.5s ease-in-out;
   display: none;
   background: #464646;
-  text-align: left;
+  text-align: center;
   margin-left: 1px;
-  padding-left: 0px;
+  padding: 5px 2px 2px 2px;
 }
 .submenu li{
   float:left;
@@ -577,7 +577,7 @@ justify-content: space-around;
 .submenu a{
   color: white;
     text-align: left;
-    padding: 12px 15px;
+    padding: 5px 5px;
     font-size: 13px;
     border-bottom: 1px solid rgba(255,255,255,.1);
   }
