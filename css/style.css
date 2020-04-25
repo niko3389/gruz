@@ -47,7 +47,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 .submenu li{
   float:left;
   height: 60px;
-  width: 140px;
+  width: 120px;
   display: block;
 
   text-align: center;
@@ -63,7 +63,7 @@ ul li a{
   color: white;
   text-align: left;
   display: block;
-  margin: auto;
+  margin: 1px 1px 1px 1px;
 
 
 }
@@ -193,7 +193,7 @@ justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  
+
 }
 
 
@@ -261,7 +261,7 @@ justify-content: center;
 }
 .nav li{
   float: none;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -342,7 +342,7 @@ tel{
   font-size: 32px;
   color: #1e1d24;
   margin: 0 0 30px;
-  padding: 69px 0px 30px 0px;
+  padding: 1px 0px 1px 0px;
 }
 .card{
   width:300px;
@@ -556,4 +556,17 @@ justify-content: space-around;
 }
 .widget_text{
   max-width:300px;
+}
+.botbut{
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 300px;
+  font-size: 42px;
+  line-height: normal;
+
+}
+.botbut1{
+  align-items: center;
+  display: block;
+  text-align: center;
 }
