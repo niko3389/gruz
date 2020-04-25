@@ -43,15 +43,19 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
   background: #464646;
   text-align: left;
   margin-left: 1px;
+  padding-left: 0px;
 }
 .submenu li{
   float:left;
-  height: 60px;
-  width: 120px;
+
   display: block;
 
   text-align: center;
   vertical-align: baseline;
+}
+.submenu li a{
+  padding: 10px 0;
+  margin: 0 10px;
 }
 ul li:hover .submenu {
   display: block;
@@ -260,11 +264,11 @@ justify-content: center;
   margin: 12px;
 }
 .nav li{
-  float: none;
+
   display: block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .nav a:hover{
   background-color: #fff;
@@ -560,7 +564,7 @@ justify-content: space-around;
 .botbut{
   text-transform: uppercase;
   text-align: center;
-  
+
   font-size: 42px;
   line-height: normal;
 
@@ -570,3 +574,10 @@ justify-content: space-around;
   display: block;
   text-align: center;
 }
+.submenu a{
+  color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+  }
