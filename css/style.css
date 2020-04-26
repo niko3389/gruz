@@ -32,6 +32,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 .submenu {
   position: absolute;
   
+  left: 0;
   width: 200px;
   z-index: 10;
   -webkit-transition: 0.5s ease-in-out;
