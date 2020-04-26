@@ -6,6 +6,13 @@
   border-width: 1px;
   border-color: #e3e2e7;
 }
+.mitem a:hover{
+  background-color: #464646;
+}
+.mitem :hover{
+  color: white;
+  background-color: #464646;
+}
 .mtext{
   display:inline-block;
   font-size: 16px;
