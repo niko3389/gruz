@@ -10,7 +10,7 @@
   background-color: #464646;
   color: white;
 }
-.mitem :hover{
+.mitem:hover{
   color: white;
   background-color: #464646;
 }
